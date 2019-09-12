@@ -1,8 +1,9 @@
 Detecting Duplicates
 
 
-For this assignment you will be detecting duplicate hex values in a large text file. You will sort
-them by value and then display how many duplicates are present. For example, let’s say you have the following text file name “sample.txt”:
+For this assignment you will be detecting duplicate hex values in a large text file. 
+You will sort them by value and then display how many duplicates are present. 
+For example, let’s say you have the following text file name “sample.txt”:
 9ec4c12949a4f31474f299058ce2b22a
 9ec4c12949a4f31474f299058ce2b22a
 43
@@ -17,8 +18,7 @@ aa
 
 
 Your program should parse through the entire file, and for each value that is in the file more than
-once, it should print out the number of instances of that value. In this case the correct output will
-be:
+once, it should print out the number of instances of that value. In this case the correct output will be:
 2 2
 aa 2
 123 3
