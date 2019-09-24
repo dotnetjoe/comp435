@@ -13,9 +13,9 @@ for line in fileinput.input():
         hexCount[line] += 1
 
 intValues = list(hexCount.keys())
-intValues.sort()
+intValues.sort() 
 
 for intValue in intValues:
     if hexCount[intValue] > 1:
         # print hex followed by the number of times it appears
-        print("%x %d" % (intValue, hexCount[intValue]))
+        print("%x %d" % (intValue, hexCount[intValue])) 
