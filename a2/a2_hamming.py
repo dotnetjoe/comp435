@@ -1,5 +1,5 @@
 import sys
-
+  
 def hammingdistance(s1, s2):
     # convert system arguments into base 16 hexadecimals
     s1 = int(s1, 16)
