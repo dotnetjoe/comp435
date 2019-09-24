@@ -1,10 +1,8 @@
 import fileinput
 
 hexCount = {}
-count = 1
 
 for line in fileinput.input():
-    line = line.strip()
     line = int(line, 16)
 
     if line not in hexCount:
