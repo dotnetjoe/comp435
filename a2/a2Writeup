@@ -5,14 +5,12 @@ Based on the SEED lab “Crypto Lab -- One-Way Hash Functions. Modified for use 
 University of North Carolina at Chapel Hill.
 
 1 Overview
-
 The learning objective of this lab is for students to get familiar with pre-image resistant and
 collision resistant hash functions. After finishing the lab, in addition to gaining a deeper
 understanding of the concepts, students should be able to use tools and write programs to
 generate hash values for a given message.
 
 2 Lab Environment
-
 Installing a hex editor
 
 In this lab, we need to be able to view and modify files of binary format. You can install any hex
@@ -143,8 +141,7 @@ experiments where n=2?
 
 4 Submission
 Submit your code on Gradescope. You will submit the following files:
-
-1. a2_hamming.py
-2. a2_preimage.py
-3. a2_collision.py
-4. YourOnyen_report.txt (The answers to the above questions)
+	1. a2_hamming.py
+	2. a2_preimage.py
+	3. a2_collision.py
+	4. YourOnyen_report.txt (The answers to the above questions)
