@@ -1,13 +1,21 @@
 import sys
 import hashlib
 import string
+import random
 
-def find_preimage(target, n):
-    i = 0
-    generated_hash = hashlib.sha256(target.encode())
-    while generated_hash.hexdigest()[:n] != target[:n]:
-        i += 1
-        stringToHash = target + str(n)
+def randomStringGenerator():
+    def randomNumGenerator():
+        return random.randrange(1, 100)
+
+    return ''.join(random.choice(string.ascii_lowercase) for _ in range(randomNumGenerator()))
+
+def find_preimage(target,n):
+   
+    while True:
+        stringToHash = randomStringGenerator()
         generated_hash = hashlib.sha256(stringToHash.encode())
-        if generated_hash.hexdigest()[:n] == target[:n]:
-		return stringToHash
+        
+        if generated_hash.digest()[0:n] == target[0:n]:
+            return stringToHash
+   
+
