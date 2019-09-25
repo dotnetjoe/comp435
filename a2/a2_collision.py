@@ -9,7 +9,6 @@ hashes = set()
 def RSG():
     return ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(6, 100))
 
-
 def find_collision(n):
     hashcounter = 0
     while True:
