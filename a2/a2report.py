@@ -48,3 +48,12 @@ while True:
         print str(sump/15) + 'avgp'
         print str(sumc/15) + 'avgc'
         break
+
+
+
+
+
+
+
+
+
