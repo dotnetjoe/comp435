@@ -10,11 +10,10 @@ def RSG():
     return ''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(6, 100))
 
 def find_collision(n):
-    hashcounter = 0
     while True:
         generated_string = RSG()
         generated_hash = hashlib.sha256(generated_string.encode()).digest()[:n]
-        hashcounter += 1
+
         if generated_hash in hashes:
             return plaintext[generated_hash],generated_string
         else:             
