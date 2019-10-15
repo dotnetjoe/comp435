@@ -12,22 +12,22 @@ speakers should develop and practice the talk together.
 
 
 Some guidelines for creating the presentation follow.
-● Introduce the event and provide motivation and context. Explain why it is an important or interesting
+- Introduce the event and provide motivation and context. Explain why it is an important or interesting
 event for us to study.
-● Provide the necessary background information as well as the technical details of the event.
-● Explain the consequences of the event. Who is or was affected? What is the extent of the damage,
+- Provide the necessary background information as well as the technical details of the event.
+- Explain the consequences of the event. Who is or was affected? What is the extent of the damage,
 potential damage, or, in the case of a positive consequence, benefit?
-● Provide a conclusion. What is the current state of affairs? Who is, or should be, taking responsibility for
+- Provide a conclusion. What is the current state of affairs? Who is, or should be, taking responsibility for
 the event? What is being done to address the situation? Are there any lessons learned?
-● Use figures in place of text wherever possible. A good rule of thumb is 140 characters per slide.
-● If you use or recreate figures or diagrams you find online cite them. Failing to cite someone else’s work
+- Use figures in place of text wherever possible. A good rule of thumb is 140 characters per slide.
+- If you use or recreate figures or diagrams you find online cite them. Failing to cite someone else’s work
 is plagiarism.
 
 
 Specifics:
-● The first slide should have the title, the group number, and the names of the group members along with
+- The first slide should have the title, the group number, and the names of the group members along with
 their PIDs
-● Every slide should include the group number and page numbers in the footer.
+- Every slide should include the group number and page numbers in the footer.
 
 
 Questions (10%)
